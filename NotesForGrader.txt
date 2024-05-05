@@ -1,0 +1,6 @@
+This program is written in C++ in Windows Powershell using vim on Tesla server.
+The main program is main.cpp and the command to run the file is g++ main.cpp -o main and enter ./main.
+Obviously, you can put any names you want for the object file instead of main but I went with main and it is a part of the zip file.
+
+The program runs in O(K + log N) average time where K is the number of keys printed, because printing keys within the range
+will take O(K) time and searching the values in the given range takes O(log N) time.
